@@ -2,37 +2,112 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  /** background image */
+  background-image: url("./bg2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-size : 24px;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-weight: bold;
   color: white;
+}
+
+.menu {
+  padding-right: 5%;
+  width: fit-content;
+}
+
+.navbar,
+.navbar-default {
+    background-image: none !important; /* override background image gradient w/ flat color */
+}
+
+.homeButton{
+  color: white;
+  font-size : 28px;
+}
+
+.header2 {
+  min-height: 10vh;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about{
+  height: 100vh;
+
+}
+
+.pricing{
+  height: 100vh;
+
+}
+
+.table-pricing{
+  background-color: white;
+}
+.contact{
+  height: 75vh;
+
+}
+
+.body {
+  padding: 0%;
+}
+
+.pict {
+  height: 500px;
+  width: 500px;
+}
+.title-page {
+  text-align-last: center;
+  align-self: center;
+}
+
+.welc-to {
+  font-size: 250%;
+}
+
+.title {
+  font-size: 350%;
+
+}
+
+.desc {
+  font-size: 150%;
+
+}
+
+.contact-text1 {
+  font-size: 35px;
+}
+
+.contact-text2 {
+  font-size: 24px;
+}
+
+.gambar-tier {
+  height: 50px;
+  width: 50px;
+}
+
+.tag1{
+  text-align: center;
+}
+
+.modal-title{
+  text-align: center;
+  font-size: 36px;
 }

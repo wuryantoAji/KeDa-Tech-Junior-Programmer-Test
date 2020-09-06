@@ -1,0 +1,9 @@
+Pada tugas recruitment kali ini saya menggunakan 
+- Figma untuk membuat rough sketch dari webpage ERP NutNomic
+(link : https://www.figma.com/file/ETnWBdliWr27dsmnQl8jOd/junprogtest?node-id=0%3A1 )
+- Visual Code Studio sebagai text editor
+- photoshop untuk membuat background dari webpage ERP
+- Library yang saya gunakan mencakup
+    >react-scroll
+    >react-modal
+    >react-bootstrap
